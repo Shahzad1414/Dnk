@@ -1,0 +1,162 @@
+
+/* Nav bar Style Start */
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+.container {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 15px ;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.logo img {
+    height: 15px; /* Set the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.hamburger-menu {
+    display: block; /* Show hamburger menu on smaller screens */
+    cursor: pointer;
+    
+}
+
+.bar {
+    width: 28px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    border-right: solid black 1px;
+}
+
+.nav-links li:last-child a {
+    border-right: none;
+}
+
+.nav-links li:first-child a {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-links li:nth-child(2) a {
+    
+    color: #717171 !important;
+}
+
+.nav-links li:nth-child(2) a:hover {
+    color:#c3ad75 !important;
+}
+
+.nav-links li:nth-child(3) a {
+    color: #717171 !important;
+    
+}
+
+.nav-links li:nth-child(3) a:hover {
+    color:#c3ad75 !important;
+    
+}
+
+.nav-links li:nth-child(4) a {
+    color: #717171 !important;
+    position: relative;
+}
+
+.nav-links li:nth-child(4) a:hover {
+    color:#c3ad75 !important;
+    position: relative;
+}
+
+
+
+.nav-links li:nth-child(4) a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(83% + 5px);
+    transform: translateY(-50%) rotate(180deg); /* Rotate to make it look like a triangle */
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent; /* Left side of the triangle */
+    border-right: 4px solid transparent; /* Right side of the triangle */
+    border-bottom: 4px solid #717171; /* Bottom side of the triangle */
+    
+}
+
+.nav-links li:nth-child(4) a:hover::after {
+    border-bottom-color:#c3ad75 !important;
+    
+}
+
+.nav-links li:nth-child(5) a {
+    color: #717171 !important;
+    position: relative;
+}
+
+.nav-links li:nth-child(5) a:hover {
+    color:#c3ad75 !important;
+    position: relative;
+}
+
+.nav-links li:nth-child(5) a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(85% + 5px);
+    transform: translateY(-50%) rotate(180deg); /* Rotate to make it look like a triangle */
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent; /* Left side of the triangle */
+    border-right: 4px solid transparent; /* Right side of the triangle */
+    border-bottom: 4px solid #717171; /* Bottom side of the triangle */
+    
+}
+.nav-links li:nth-child(5) a:hover::after {
+    border-bottom-color:#c3ad75 !important;
+}
+
+.nav-links a:hover {
+   color:#c3ad75 !important;
+}
+
+/* nav bar Style End */
