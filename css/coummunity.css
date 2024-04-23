@@ -1,0 +1,14 @@
+.community-Section{
+    width: 760px;
+    margin: auto;
+}
+
+.community-header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.community-content{
+    text-align: center;
+    font-size: 20px;
+}
